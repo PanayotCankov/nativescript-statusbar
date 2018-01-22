@@ -1,15 +1,15 @@
 {
   "nativescript": {
     "id": "org.nativescript.demo",
-    "tns-ios": {
-      "version": "3.0.1"
-    },
     "tns-android": {
       "version": "3.0.0"
+    },
+    "tns-ios": {
+      "version": "3.5.0-rc-2018-01-08-02"
     }
   },
   "dependencies": {
-	"nativescript-statusbar": "file:../dist/package",
+    "nativescript-statusbar": "file:../dist/package",
     "tns-core-modules": "^3.0.0 || ^3.0.0-rc.1",
     "tns-platform-declarations": "^3.0.0 || ^3.0.0-rc.1"
   },
@@ -17,6 +17,17 @@
     "babel-traverse": "6.24.1",
     "babel-types": "6.24.1",
     "babylon": "6.17.1",
-    "lazy": "1.0.11"
+    "copy-webpack-plugin": "~4.3.0",
+    "css-loader": "~0.28.7",
+    "extract-text-webpack-plugin": "~3.0.2",
+    "lazy": "1.0.11",
+    "nativescript-dev-webpack": "^0.9.1",
+    "nativescript-worker-loader": "~0.8.1",
+    "raw-loader": "~0.5.1",
+    "resolve-url-loader": "~2.2.1",
+    "uglifyjs-webpack-plugin": "~1.1.6",
+    "webpack": "~3.10.0",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-sources": "~1.1.0"
   }
 }
